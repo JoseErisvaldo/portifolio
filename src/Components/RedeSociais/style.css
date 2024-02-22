@@ -1,0 +1,12 @@
+.card-rede ul {
+  display: flex;
+}
+.card-rede ul li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.card-rede ul li:hover {
+  scale: 1.1;
+}

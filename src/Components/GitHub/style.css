@@ -1,0 +1,12 @@
+.card-git-hub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-git-hub h2,
+.card-git-hub img {
+  margin: 5px;
+}
+.card-git-hub img {
+  max-width: 100%;
+}

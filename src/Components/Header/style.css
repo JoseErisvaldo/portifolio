@@ -1,0 +1,30 @@
+#logo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 23px;
+}
+.dev {
+  color: red;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card-nav ul {
+  display: flex;
+}
+.card-nav ul li {
+  padding: 5px;
+  list-style: none;
+  cursor: pointer;
+  margin: 0 3px;
+}
+.card-nav ul li:hover {
+  scale: 1.1;
+}
+
+@media (max-width: 500px) {
+  .card-nav {
+    display: none;
+  }
+}

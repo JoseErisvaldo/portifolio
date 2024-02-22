@@ -1,0 +1,44 @@
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-title img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.card-title h2,
+.card-title img {
+  margin: 10px;
+}
+h2 {
+  margin: 5px;
+  text-align: center;
+}
+.card-about {
+  display: flex;
+  justify-content: center;
+}
+.card-desc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+}
+.card-desc img {
+  height: 400px;
+  border-radius: 40px;
+}
+.list-about {
+  margin: 10px;
+  max-width: 620px;
+}
+.list-about li {
+  margin: 10px;
+}
