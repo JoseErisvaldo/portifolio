@@ -3,6 +3,7 @@ import ReactFlix from '../../Img/Projects/react-flix.png'
 import ModasOnline from '../../Img/Projects/modas-online.png'
 import RedePost from '../../Img/Projects/redepost.png'
 import AppCompras_1 from '../../Img/Projects/appcompras_1.png'
+import Cryptocurrency from '../../Img/Projects/cryptocurrency.png'
 
 export default function Projects () {
   return(
@@ -49,6 +50,14 @@ export default function Projects () {
           <div className='links-projects'>
             <a href="https://joseerisvaldo.github.io/AppCompras/" target='_blank'>Acessar site</a>
             <a href="https://github.com/JoseErisvaldo/AppCompras" target='_blank'>Acessar Repositorio</a>
+          </div>
+        </div>
+        <div className='card-projects'>
+          <h3>Cryptocurrency</h3>
+          <img src={Cryptocurrency} />
+          <div className='links-projects'>
+            <a href="https://crypto-currency-dev-jes.netlify.app/" target='_blank'>Acessar site</a>
+            <a href="https://github.com/JoseErisvaldo/Cryptocurrency" target='_blank'>Acessar Repositorio</a>
           </div>
         </div>
       </div>
