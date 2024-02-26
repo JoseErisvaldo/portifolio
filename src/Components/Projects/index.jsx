@@ -4,6 +4,7 @@ import ModasOnline from '../../Img/Projects/modas-online.png'
 import RedePost from '../../Img/Projects/redepost.png'
 import AppCompras_1 from '../../Img/Projects/appcompras_1.png'
 import Cryptocurrency from '../../Img/Projects/cryptocurrency.png'
+import MovieNet from '../../Img/Projects/movienet.png'
 
 export default function Projects () {
   return(
@@ -20,6 +21,14 @@ export default function Projects () {
         </ul>
       </div>
       <div id='container-projects'>
+        <div className='card-projects'>
+          <h3>Movie Net</h3>
+          <img src={MovieNet} />
+          <div className='links-projects'>
+            <a href="https://movienet-dev.netlify.app/" target='_blank'>Acessar site</a>
+            <a href="https://github.com/JoseErisvaldo/MovieNet" target='_blank'>Acessar Repositorio</a>
+          </div>
+        </div>
         <div className='card-projects'>
           <h3>React-Flix</h3>
           <img src={ReactFlix} />
