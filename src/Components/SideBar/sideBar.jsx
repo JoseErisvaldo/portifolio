@@ -8,6 +8,7 @@ import {
 import { MdEmail } from 'react-icons/md'
 import jose from '../../Img/jose.png'
 import H1 from '../UIComponents/h1/h1'
+import Button from '../UIComponents/Button/button'
 
 export default function SideBar() {
   return (
@@ -50,9 +51,7 @@ export default function SideBar() {
           <span>04/06/1998</span>
         </div>
       </div>
-      <button className="mt-6 bg-blue-600 p-3 rounded text-white">
-        Download CV
-      </button>
+      <Button button={'Download CV'} color={'blue'} colorText={'white'} />
     </div>
   )
 }
