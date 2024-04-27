@@ -1,0 +1,4 @@
+.web-scroll::-webkit-scrollbar {
+  background-color: rgb(220, 220, 220);
+  width: 5px;
+}
