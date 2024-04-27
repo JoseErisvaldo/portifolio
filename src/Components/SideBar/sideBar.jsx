@@ -1,31 +1,36 @@
 import {
   FaCalendarAlt,
-  FaFacebook,
+  FaInstagramSquare,
   FaLinkedin,
   FaMapMarkedAlt,
   FaPhoneAlt
 } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
+import jose from '../../Img/jose.png'
+import H1 from '../UIComponents/h1/h1'
 
 export default function SideBar() {
   return (
-    <div className="bg-[#ffeff1] flex flex-col items-center p-8 text-center lg:w-1/3">
+    <div className="bg-blue-200 flex flex-col items-center p-8 text-center lg:w-1/3">
       <img
         alt="José Erisvaldo"
         className="h-48 w-48 rounded-full object-cover"
         height="192"
-        src="/placeholder.svg"
+        src={jose}
         style={{
           aspectRatio: '192/192',
-          objectFit: 'cover'
+          objectFit: 'contain'
         }}
         width="192"
       />
-      <h1 className="mt-4 text-2xl font-semibold">José Erisvaldo</h1>
+      <H1 h1={'José Erisvaldo dos Santos'} />
+
       <p className="text-sm text-gray-600">Desenvolvedor Font-End</p>
       <div className="flex mt-4 space-x-2">
-        <FaFacebook className="h-6 w-6 text-blue-600" />
-        <FaLinkedin className="h-6 w-6 text-blue-700" />
+        <div className="bg-gradient-to-br from-yellow-400 via-red-500 to-purple-800 flex items-center justify-center rounded-full">
+          <FaInstagramSquare className="text-white w-6 h-6 cursor-pointer" />
+        </div>
+        <FaLinkedin className="h-6 w-6 text-blue-700 cursor-pointer" />
       </div>
       <div className="mt-8 space-y-2 text-left">
         <div className="flex items-center space-x-2">
