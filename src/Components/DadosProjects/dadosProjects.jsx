@@ -66,6 +66,16 @@ const dadosProjects = [
     stack: ['React, TailWind'],
     repository: 'https://github.com/JoseErisvaldo/registrationform',
     site: 'https://imersao-y.netlify.app'
+  },
+  {
+    id: 7,
+    category: 'erp',
+    img: mundoonline,
+    title: 'Mundo Online',
+    description: 'Mundo Online - Sistema de afiliados',
+    stack: ['React, TailWind, Banco de dados - SupaBase'],
+    repository: 'https://github.com/JoseErisvaldo/mundoOnlineHub',
+    site: 'https://mundoonline.netlify.app/'
   }
 ]
 
