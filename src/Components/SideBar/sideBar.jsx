@@ -1,5 +1,6 @@
 import {
   FaCalendarAlt,
+  FaGithub,
   FaInstagramSquare,
   FaLinkedin,
   FaMapMarkedAlt,
@@ -36,15 +37,14 @@ export default function SideBar() {
         <a
           target="_blank"
           href="https://www.linkedin.com/in/jos%C3%A9erisvaldodossantos/"
-        > 
+        >
           <FaLinkedin className="h-6 w-6 text-blue-700 cursor-pointer" />
+        </a>
+        <a target="_blank" href="https://github.com/JoseErisvaldo">
+          <FaGithub className="h-6 w-6 text-black-700 cursor-pointer" />
         </a>
       </div>
       <div className="mt-8 space-y-2 text-left">
-        <div className="flex items-center space-x-2">
-          <FaPhoneAlt className="h-5 w-5 text-gray-600" />
-          <span>+55 11 9 5879-0531</span>
-        </div>
         <div className="flex items-center space-x-2">
           <MdEmail className="h-5 w-5 text-gray-600" />
           <span>joseerisvaldopg@gmail.com</span>
