@@ -15,7 +15,8 @@ const dadosProjects = [
     description: 'Descrição',
     stack: ['React, TailWind'],
     repository: 'https://github.com/JoseErisvaldo/deliververduras',
-    site: 'https://deliververduras.netlify.app/'
+    site: 'https://deliververduras.netlify.app/',
+    status: 'postado'
   },
   {
     id: 2,
@@ -25,7 +26,8 @@ const dadosProjects = [
     description: 'Food Services',
     stack: ['React, TailWind'],
     repository: 'https://github.com/JoseErisvaldo/fooddeliveryservice',
-    site: 'https://fooddelivery-service.netlify.app/catalogo'
+    site: 'https://fooddelivery-service.netlify.app/catalogo',
+    status: 'postado'
   },
   {
     id: 3,
@@ -35,7 +37,8 @@ const dadosProjects = [
     description: 'ZêniteZum',
     stack: ['React, Css, Api-Mercado-Libre'],
     repository: 'https://github.com/JoseErisvaldo/Z-niteZum',
-    site: 'https://zenitezum.netlify.app/'
+    site: 'https://zenitezum.netlify.app/',
+    status: 'postado'
   },
   {
     id: 4,
@@ -45,7 +48,8 @@ const dadosProjects = [
     description: 'Crypto-Currency',
     stack: ['React, Css, Api Coingecko'],
     repository: 'https://github.com/JoseErisvaldo/Cryptocurrency',
-    site: 'https://crypto-currency-dev-jes.netlify.app/'
+    site: 'https://crypto-currency-dev-jes.netlify.app/',
+    status: 'postado'
   },
   {
     id: 5,
@@ -55,7 +59,8 @@ const dadosProjects = [
     description: 'Movie Net',
     stack: ['React, Css, Api Themoviedb'],
     repository: 'https://github.com/JoseErisvaldo/MovieNet',
-    site: 'https://movienet-dev.netlify.app/'
+    site: 'https://movienet-dev.netlify.app/',
+    status: 'postado'
   },
   {
     id: 6,
@@ -65,7 +70,8 @@ const dadosProjects = [
     description: 'Formulario de cadastro',
     stack: ['React, TailWind'],
     repository: 'https://github.com/JoseErisvaldo/registrationform',
-    site: 'https://imersao-y.netlify.app'
+    site: 'https://imersao-y.netlify.app',
+    status: 'postado'
   },
   {
     id: 7,
@@ -75,7 +81,41 @@ const dadosProjects = [
     description: 'Mundo Online - Sistema de afiliados',
     stack: ['React, TailWind, Banco de dados - SupaBase'],
     repository: 'https://github.com/JoseErisvaldo/mundoOnlineHub',
-    site: 'https://mundoonline.netlify.app/'
+    site: 'https://mundoonline.netlify.app/',
+    status: 'postado'
+  },
+  {
+    id: 8,
+    category: 'hotel',
+    img: '',
+    title: 'Hotel',
+    description: 'Hotel, gerenciar agendamentos',
+    stack: ['***'],
+    repository: '#',
+    site: '#',
+    status: 'em breve'
+  },
+  {
+    id: 8,
+    category: 'Barbearia',
+    img: '',
+    title: 'Barbearia',
+    description: 'Barbearia, gerenciar agendamentos',
+    stack: ['***'],
+    repository: '#',
+    site: '#',
+    status: 'em breve'
+  },
+  {
+    id: 8,
+    category: 'Clinica',
+    img: '',
+    title: 'Clinica',
+    description: 'Clinica, gerenciar agendamentos',
+    stack: ['***'],
+    repository: '#',
+    site: '#',
+    status: 'em breve'
   }
 ]
 
