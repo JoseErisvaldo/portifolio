@@ -29,9 +29,16 @@ export default function SideBar() {
       <p className="text-sm text-gray-600">Desenvolvedor Font-End</p>
       <div className="flex mt-4 space-x-2">
         <div className="bg-gradient-to-br from-yellow-400 via-red-500 to-purple-800 flex items-center justify-center rounded-full">
-          <FaInstagramSquare className="text-white w-6 h-6 cursor-pointer" />
+          <a target="_blank" href="https://www.instagram.com/jose.erisvaldo/">
+            <FaInstagramSquare className="text-white w-6 h-6 cursor-pointer" />
+          </a>
         </div>
-        <FaLinkedin className="h-6 w-6 text-blue-700 cursor-pointer" />
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/jos%C3%A9erisvaldodossantos/"
+        > 
+          <FaLinkedin className="h-6 w-6 text-blue-700 cursor-pointer" />
+        </a>
       </div>
       <div className="mt-8 space-y-2 text-left">
         <div className="flex items-center space-x-2">
