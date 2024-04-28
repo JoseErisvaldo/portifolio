@@ -27,7 +27,7 @@ export default function Home() {
 
             {nav === 'sobre' && <About />}
             {nav === 'projetos' && <Projetos />}
-            {nav === 'contato' && <Contact />}
+            {/*{nav === 'contato' && <Contact />}*/}
           </div>
         </div>
       </div>
